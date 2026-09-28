@@ -43,7 +43,7 @@ const ITINERARY = [
   },
   {
     time: "9:00 PM",
-    emoji: " Bulldogs",
+    emoji: "🐶",
     title: "Meet Handsome Dan",
     body: "Well — see him online, at least. Yale's live mascot lineage dates to 1889, making him senior to your entire extended family. Good night. You did great today.",
     color: "bg-mint-soft border-mint/50",
