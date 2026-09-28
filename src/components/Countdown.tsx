@@ -63,7 +63,7 @@ export function Countdown() {
               className="rounded-2xl bg-butter-soft px-2 py-4 text-center"
             >
               <div className="font-display text-3xl font-semibold tabular-nums text-foreground sm:text-5xl">
-                {timeLeft === null ? "--" : key === "days" || key === "hours" ? pad(timeLeft[key]) : pad(timeLeft[key])}
+                {timeLeft === null ? "--" : pad(timeLeft[key])}
               </div>
               <div className="mt-1 text-[0.65rem] font-semibold uppercase tracking-widest text-muted-foreground sm:text-xs">
                 {label}

@@ -54,7 +54,7 @@ function Card({ card, onDownload }: { card: (typeof CARDS)[number]; onDownload: 
           {card.quote}
         </p>
         <div className="mt-8 flex items-center gap-3">
-          <div className="h-10 w-10 rounded-full bg-coral bg-primary/80" />
+          <div className="h-10 w-10 rounded-full bg-primary/80" />
           <div>
             <div className="font-display text-sm font-semibold text-foreground">
               Yale: The Backup Plan
